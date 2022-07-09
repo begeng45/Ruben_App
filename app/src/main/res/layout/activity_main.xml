@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gojo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_centerInParent="true"
+        android:text="Welcome"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="166dp"
+        android:layout_height="166dp"
+        android:layout_above="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        app:srcCompat="@drawable/logo_unpam"
+        tools:srcCompat="@drawable/logo_unpam" />
+</RelativeLayout>
+
+
